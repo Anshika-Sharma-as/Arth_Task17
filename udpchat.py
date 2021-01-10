@@ -9,7 +9,7 @@ s.bind( (ip,port) )
 os.system('clear')
 #taking reciever info
 host_ip = input("Enter the IP of reciever: ")
-host_port = input("Enter the Port of the reciever: ")
+host_port = int(input("Enter the Port of the reciever: "))
 
 os.system('tput setaf 3')
 os.system("echo '<Chit Chat> App' | figlet")
